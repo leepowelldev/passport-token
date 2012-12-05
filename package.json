@@ -1,0 +1,32 @@
+{
+  "name": "passport-token",
+  "version": "0.1.0",
+  "description": "Username and token authentication strategy for Passport - modified from passport-local.",
+  "author": {
+    "name": "Lee Powell"
+  },
+  "main": "./lib/passport-token",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/leepowellcouk/passport-token"
+  }
+  "dependencies": {
+    "passport": "~0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "token",
+    "auth",
+    "authn",
+    "authentication"
+  ]
+}
