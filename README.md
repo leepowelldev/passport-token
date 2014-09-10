@@ -99,7 +99,7 @@ If authentication fails in the above example then a 401 response will be given. 
             }
             
             if (!user) {
-                res.status(401).json({message: "Incorrect token credentials"});
+                return res.status(401).json({message: "Incorrect token credentials"});
             }
            
             req.user = user;
