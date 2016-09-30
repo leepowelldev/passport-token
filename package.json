@@ -1,6 +1,6 @@
 {
   "name": "passport-token",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Username and token authentication strategy for Passport - modified from passport-local.",
   "author": {
     "name": "Lee Powell"
